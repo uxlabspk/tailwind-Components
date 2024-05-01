@@ -1,6 +1,7 @@
 
 import Notifications from "./Components/Notifications"
 import Navigation from "./Components/Navigation"
+import AppNotification from "./Components/AppNotification"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
     <div className="flex flex-col items-center justify-center h-screen">
       <Notifications />
       <Navigation />
+      <AppNotification />
     </div>
     </>
   )
