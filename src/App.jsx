@@ -2,14 +2,16 @@
 import Notifications from "./Components/Notifications"
 import Navigation from "./Components/Navigation"
 import AppNotification from "./Components/AppNotification"
+import AppCard from "./Components/AppCard"
 
 function App() {
   return (
     <>
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="py-5 mx-5">
       <Notifications />
       <Navigation />
       <AppNotification />
+      <AppCard />
     </div>
     </>
   )
